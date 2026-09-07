@@ -1,15 +1,101 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Dark Knight</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #111;
+            color: white;
+            margin: 0;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #222;
+            text-align: center;
+            padding: 25px;
+        }
+
+        nav {
+            background-color: #333;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+        }
+
+        summary,
+        section,
+        aside,
+        footer {
+            padding: 20px;
+            margin: 20px;
+            background-color: #222;
+            border-radius: 8px;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #333;
+        }
+    </style>
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+    <header>
+        <h1>The Dark Knight</h1>
+        <p>One of the greatest superhero movies ever made.</p>
+    </header>
+
+    <nav>
+        <a id="nav-actor" href="#actor">Actors</a>
+        <a id="nav-quote" href="#quote">Quotes</a>
+    </nav>
+
+    <summary>
+        <h2>Summary</h2>
+        <p>
+            The Dark Knight follows Batman as he attempts to protect Gotham City
+            from the dangerous criminal mastermind known as the Joker. With the
+            help of Commissioner Gordon and Harvey Dent, Batman fights to keep
+            the city safe while facing difficult moral choices.
+        </p>
+    </summary>
+
+    <section id="actor">
+        <h2>Actors</h2>
+        <p>
+            Christian Bale plays Bruce Wayne/Batman, Heath Ledger plays the Joker,
+            Aaron Eckhart plays Harvey Dent, and Gary Oldman plays Commissioner Gordon.
+        </p>
+    </section>
+
+    <section id="quote">
+        <h2>Favorite Quote</h2>
+        <p>
+            "Why so serious?"
+        </p>
+    </section>
+
+    <aside>
+        <h2>Movie Information</h2>
+        <p>IMDb Rating: 9.0/10</p>
+        <p>Release Date: July 18, 2008</p>
+    </aside>
+
+    <footer>
+        <p>Produced by: Christopher Nolan</p>
+    </footer>
 
 </body>
 
